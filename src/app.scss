@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url('./assets/images/Shadow.png'), url('./assets/images/Pattern.png');
+}
+* {
+  box-sizing: border-box;
+}
+.app {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    &__pattern {
+      width: 1280px;
+      height: 680px;
+     
+    }
+}
+@media (max-width: 650px) {
+  .app {
+    height: 100%;
+  }
+}
+  
+@font-face {
+  font-family: 'Exo2.0';
+  src: url('./assets/font/Exo2.0-Thin.otf');
+}
+@font-face {
+  font-family: 'Trebuchet MS';
+  src: url('./assets/font/trebucit.ttf');
+}
+
+
+

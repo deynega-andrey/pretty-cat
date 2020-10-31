@@ -1,0 +1,104 @@
+.app {
+    &__frame {
+        border-width: 4px;
+        border-style: solid;
+        background-color: rgb(242, 242, 242);
+        width: 320px;
+        height: 480px;
+        border-radius: 0 8px 8px 8px;
+        position: relative;
+        overflow: hidden;
+        font-family: "Trebuchet MS";
+        padding: 18px 0px 0 44px;
+        background-color: rgb(242, 242, 242);
+        margin: 0 auto;
+        clip-path: polygon(14% 0%, 100% 0%, 100% 100%, 0 100%, 0 9.375%);
+        
+    }
+    &__cat {
+        background: url('../../assets/images/Photo.png');
+        height: 361px;
+        width: 372px;
+        position: absolute;
+        top: 204px;
+        left: -28px;
+    }
+   
+      
+    &__ellipse {
+        border-radius: 50%;
+        position: absolute;
+        left: 221px;
+        top: 382px;
+        width: 80px;
+        height: 80px;
+        text-align: center;
+        color: white;
+    }  
+    &__marvel {
+        font-size: 16px;
+        color: rgb(102, 102, 102);
+        line-height: 1.2;
+        margin-bottom: 18px;  
+    }
+    &__tasty {
+        font-size: 48px;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        line-height: 0.6;
+        letter-spacing: 1.5px;
+        margin-bottom: 13px;
+        
+    }
+    &__composition {
+        font-size: 24px;
+        color: rgb(0, 0, 0);
+        font-weight: 900;
+        text-transform: lowercase;
+        margin-bottom: 15px;
+        letter-spacing: 0.5px;
+    }
+    &__quantity, &__gift {
+        font-size: 14px;
+        color: rgb(102, 102, 102);
+        font-weight: normal;
+        text-transform: lowercase;
+    }
+    &__quantity {
+        letter-spacing: 0.1px;
+    }
+    &__disapproval {
+        color: #e52e7a;
+    }
+    &__stick {
+        width: 100px;
+        height: 4px;
+        position: absolute;
+        top: 4px;
+        left: -17px;
+        transform: rotate(-45deg);
+    }
+    &__weight {
+        font-size: 42px;
+        width: 100%;
+        position: absolute;
+        top: 10%;
+    }
+    &__units {
+        font-size: 21px;
+        position: absolute;
+        width: 100%;
+        top: 60%;
+    }
+}
+
+
+
+   
+
+
+    
+   
+
+  
+

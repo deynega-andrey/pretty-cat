@@ -1,0 +1,33 @@
+.app {
+    &__text {
+        text-align: center;
+        color: rgb(255, 255, 255);;
+        font-size: 13px;
+        font-family: "Trebuchet MS";
+        line-height: 1.231;
+        margin-top: 15px;
+        text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.004);
+        margin-bottom: 20px;
+        &_disabled {
+            color: rgb(255, 255, 102);
+        }
+    }
+    &__buy {
+       color: rgb(22, 152, 217); 
+       border-bottom: 1.5px dashed rgb(22, 152, 217);
+       cursor: pointer;
+       &_hover {
+            color: #2ea8e6;
+            border-bottom: 1.5px dashed #2ea8e6;
+       }
+    }
+    &__dot {
+        color: rgb(22, 152, 217);
+        &_hover {
+            color: #2ea8e6;
+        }
+    }
+}
+
+
+  

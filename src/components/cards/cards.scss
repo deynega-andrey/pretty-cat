@@ -1,0 +1,18 @@
+.app {
+  &__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+  }
+}
+@media (max-width: 991px) {
+  .app {
+    &__card {
+      &:nth-child(1) {
+        width: 100%;
+      }
+    }
+  }
+}
+       
